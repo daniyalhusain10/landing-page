@@ -1,0 +1,28 @@
+.icon{
+    border: 2px solid black;
+    border-radius: 100%;
+     transition: all .50s ease-out;
+      font-size: 40px;
+      padding: 0px 9px;
+}
+.icon:hover{
+    transform: scale(1.1)  rotate(360deg);
+    cursor: pointer;
+      padding: 0px 9px;
+   
+}
+.forborder{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    overflow: hidden;
+}
+
+.productContainer::-webkit-scrollbar {
+    display: none;
+}
+.anchor{
+ text-decoration: underline ;
+}
+.topitem{
+    text-decoration: underline;
+}
